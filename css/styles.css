@@ -1,0 +1,65 @@
+:root {
+  --primery-tex-color:;
+  --title-text-color:;
+  --accent-color:#2196F3;
+ }
+/* main text color-#757575 */
+/* heders color-#212121 */
+/* hero color-#FFFFFF */
+
+/* buttons color-#2196F3*/
+/* email colour-#2196F3 */
+/* background-color-#2196F3*/
+
+ul {
+  list-style: none ;
+}
+ 
+/* body */
+body {
+  background-color: #FFFFFF;
+  color: var(--primery-tex-color)
+}
+
+.logo:focus {
+  color: #2196F3;
+  color: var(--accent-color)
+}
+
+.logopart1 {
+  color: #2196F3;
+}
+
+.logopart2 {
+  color:#000000;
+
+} 
+
+.link {
+  color: #000000;
+  color: var(--primery-tex-color);
+}
+.link:hover, .link:focus {
+ color: #2196F3; 
+ color: var(--primery-tex-color);
+
+
+}
+
+.email {
+  color: #000000 ;
+  color: var(--primery-tex-color);
+  
+}
+.email:hover {
+  color: #2196F3;
+  color: var(--primery-tex-color);
+}
+
+.tel {
+  color: #000000;
+  color: var(--primery-tex-color);
+}
+.section-title {
+color:  #212121 ;color: var(--primery-tex-color);
+}
