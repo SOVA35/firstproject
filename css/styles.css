@@ -1,65 +1,92 @@
 :root {
-  --primery-tex-color:;
-  --title-text-color:;
-  --accent-color:#2196F3;
- }
-/* main text color-#757575 */
+  --primary-text-color: #757575;
+  --secondaty-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #2f303a;
+}
+
+.body {
+  background-color: #ffffff;
+  color: var(--title-text-color);
+}
+
+/* nav */
+.logo {
+  color: #000000;
+}
+
+.link-nav .link {
+  color: #000000;
+}
+
+.link-nav .link:hover,
+.link-nav .link:focus {
+  color: var(--accent-color);
+}
+/*контакти*/
+
+.contact .email:hover,
+.contact .contact-tel:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  color: var(--secondaty-text-color);
+  background-color: var(--primary-bg-color);
+  width: 600px;
+}
+.btn {
+  color: var(--secondaty-text-color);
+  background-color: var(--accent-color);
+}
+
+/*переваги*/
+.stn-title .stn-title-content {
+  color: var(--title-text-color);
+  color: var(--primary-text-color);
+}
+
+/*команда*/
+
+.team {
+  color: var(--title-text-color);
+  color: var(--primary-text-color);
+}
+.team .name {
+  color: var(--title-text-color);
+}
+.team-title {
+  color: var(--title-text-color);
+}
+
+/*footer*/
+.footer {
+  background-color: var(--primary-bg-color);
+  width: 600px;
+}
+.logopart-one {
+  color: var(--accent-color);
+}
+.logopart-two {
+  color: var(--secondaty-text-color);
+}
+
+.adress {
+  color: var(--primary-text-color);
+}
+
+/* main text color-#757575*/
 /* heders color-#212121 */
 /* hero color-#FFFFFF */
 
 /* buttons color-#2196F3*/
 /* email colour-#2196F3 */
 /* background-color-#2196F3*/
+/* вторчный  цвет -rgba(255, 255, 255, 0.6) */
 
+/* вторичный цыет фона -#2F303A */
 ul {
-  list-style: none ;
-}
- 
-/* body */
-body {
-  background-color: #FFFFFF;
-  color: var(--primery-tex-color)
-}
-
-.logo:focus {
-  color: #2196F3;
-  color: var(--accent-color)
-}
-
-.logopart1 {
-  color: #2196F3;
-}
-
-.logopart2 {
-  color:#000000;
-
-} 
-
-.link {
-  color: #000000;
-  color: var(--primery-tex-color);
-}
-.link:hover, .link:focus {
- color: #2196F3; 
- color: var(--primery-tex-color);
-
-
-}
-
-.email {
-  color: #000000 ;
-  color: var(--primery-tex-color);
-  
-}
-.email:hover {
-  color: #2196F3;
-  color: var(--primery-tex-color);
-}
-
-.tel {
-  color: #000000;
-  color: var(--primery-tex-color);
-}
-.section-title {
-color:  #212121 ;color: var(--primery-tex-color);
+  list-style: none;
 }
